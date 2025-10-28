@@ -1,0 +1,43 @@
+.hotline {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff4d4f;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+.hotline img {
+  width: 60px;
+  height: 65px;
+}
+
+.hotline:hover {
+  transform: scale(1.1);
+  background-color: #ff1a1a;
+}
+
+.zalo-icon {
+  position: fixed;
+  left: 20px;         
+  bottom: 20px;       
+  background-color: #0084ff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.zalo-icon img {
+  width: 60px;
+  height: 65px;
+  display: block;
+}
+
+.zalo-icon:hover {
+  transform: scale(1.1);
+  background-color: #006fe6;
+}
